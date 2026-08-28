@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts
+data/*
+!data/.gitkeep
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Generated outputs
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
